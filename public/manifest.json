@@ -1,0 +1,25 @@
+{
+  "version": "0.0.1",
+  "name": "SoloTodo",
+  "manifest_version": 2,
+  "description": "Verifica si el producto que estás cotizando está más barato en otras tiendas",
+  "browser_action": {
+    "default_title": "Ver comparativa de precios",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "img/icon-16.png",
+    "48": "img/icon-48.png",
+    "128": "img/icon-128.png"
+  },
+  "background": {
+    "page": "background.html"
+  },
+  "permissions": [
+    "management",
+    "tabs",
+    "storage",
+    "*://www.falabella.com/falabella-cl/product/*"
+  ],
+  "content_security_policy": "default-src 'self'; script-src 'self' http://localhost:3000 https://localhost:3000 'unsafe-eval'; connect-src http://localhost:3000 https://localhost:3000; style-src * 'unsafe-inline' 'self' blob:; img-src 'self' data:;"
+}

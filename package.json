@@ -1,0 +1,21 @@
+{
+  "name": "chrome_extension",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "bootstrap": "^4.1.0",
+    "parcel-bundler": "^1.7.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "scripts": {
+    "watch-background": "parcel watch src/background.html",
+    "watch-popup": "parcel watch src/popup.html"
+  },
+  "devDependencies": {
+    "node-sass": "^4.8.3"
+  }
+}
