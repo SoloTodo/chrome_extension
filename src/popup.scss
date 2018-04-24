@@ -1,16 +1,31 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-//body {
-//  background: url("./background.png") #1e3d6a;
-//  background-image: url("./background.png");
-//  background-position-x: initial;
-//  background-position-y: initial;
-//  background-size: initial;
-//  background-repeat-x: initial;
-//  background-repeat-y: initial;
-//  background-attachment: initial;
-//  background-origin: initial;
-//  background-clip: initial;
-//  background-color: rgb(30, 61, 106);
-//  color: white;
-//}
+body {
+  background: url("img/background.png") #1e3d6a;
+  background-image: url("img/background.png");
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: rgb(30, 61, 106);
+  color: white;
+  padding: 10px;
+  width: 400px;
+}
+
+h1 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+table {
+  width: 100%
+}
+
+a, a:hover {
+  color: white;
+}
