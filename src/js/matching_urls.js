@@ -1,5 +1,30 @@
 const matches = [
-  /www.falabella.com\/falabella-cl\/product\/(\d+)/
+  /www.falabella.com\/falabella-cl\/product\/(\d+)/,
+  /simple.ripley.cl/,
+  /www.paris.cl/,
+  /www.abcdin.cl/,
+  /tienda.lapolar.cl/,
+  /www.pcfactory.cl/,
+  /www.corona.cl/,
+  /www.linio.cl/,
+  /www.bip.cl/,
+  /www.hponline.cl/,
+  /www.infor-ingen.com/,
+  /www.magens.cl/,
+  /tienda.pc-express.cl/,
+  /www.reifstore.cl/,
+  /www.sistemax.cl/,
+  /www.ttchile.cl/,
+  /www.wei.cl/,
+  /www.tiendasmart.cl/,
+  /www.easy.cl/,
+  /www.hites.com/,
+  /www.netnow.cl/,
+  /www.vivelo.cl/,
+  /www.sodimac.cl/,
+  /store.sony.cl/,
+  /www.spdigital.cl/,
+  /www.winpy.cl/,
 ];
 
 export const regexes = matches.map(match => RegExp(match));

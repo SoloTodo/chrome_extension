@@ -1,17 +1,7 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 body {
-  background: url("img/background.png") #1e3d6a;
-  background-image: url("img/background.png");
-  background-position-x: initial;
-  background-position-y: initial;
-  background-size: initial;
-  background-repeat-x: initial;
-  background-repeat-y: initial;
-  background-attachment: initial;
-  background-origin: initial;
-  background-clip: initial;
-  background-color: rgb(30, 61, 106);
+  background: url("img/background.png") rgb(30, 61, 106);
   color: white;
   padding: 10px;
   width: 400px;

@@ -13,13 +13,39 @@
     "128": "img/icon-128.png"
   },
   "background": {
-    "page": "background.html"
+    "page": "background.html",
+    "persistent": false
   },
   "permissions": [
-    "management",
     "tabs",
-    "storage",
-    "*://www.falabella.com/falabella-cl/product/*"
+    "*://www.falabella.com/falabella-cl/product/*",
+    "*://simple.ripley.cl/",
+    "*://www.paris.cl/",
+    "*://www.abcdin.cl/",
+    "*://tienda.lapolar.cl/",
+    "*://www.pcfactory.cl/",
+    "*://www.corona.cl/",
+    "*://www.linio.cl/",
+    "*://www.bip.cl/",
+    "*://www.hponline.cl/",
+    "*://www.infor-ingen.com/",
+    "*://www.magens.cl/",
+    "*://tienda.pc-express.cl/",
+    "*://www.reifstore.cl/",
+    "*://www.sistemax.cl/",
+    "*://www.ttchile.cl/",
+    "*://www.wei.cl/",
+    "*://www.tiendasmart.cl/",
+    "*://www.easy.cl/",
+    "*://www.hites.com/",
+    "*://www.netnow.cl/",
+    "*://www.vivelo.cl/",
+    "*://www.sodimac.cl/",
+    "*://store.sony.cl/",
+    "*://www.spdigital.cl/",
+    "*://www.winpy.cl/",
+    "*://local.solotodo.com/",
+    "*://api.solotodo.com/"
   ],
-  "content_security_policy": "default-src 'self'; script-src 'self' http://localhost:3000 https://localhost:3000 'unsafe-eval'; connect-src http://localhost:3000 https://localhost:3000; style-src * 'unsafe-inline' 'self' blob:; img-src 'self' data:;"
+  "content_security_policy": "default-src 'self'; script-src 'self' http://localhost:3000 https://localhost:3000 'unsafe-eval'; connect-src http://localhost:3000 https://localhost:3000 http://local.solotodo.com:8000 https://api.solotodo.com; style-src * 'unsafe-inline' 'self' blob:; img-src 'self' data:;"
 }

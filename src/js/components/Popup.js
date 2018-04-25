@@ -35,10 +35,6 @@ export default class Popup extends Component {
     const entity = this.state.entity && new ApiResourceObject(this.state.entity, this.state.apiResourceObjects);
     const availableEntities = this.state.availableEntities.map(entity => new ApiResourceObject(entity, this.state.apiResourceObjects));
 
-    if (entity) {
-      console.log(entity);
-    }
-
     let content = null;
 
     if (!entity) {

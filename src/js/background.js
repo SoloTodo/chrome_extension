@@ -58,10 +58,9 @@ const handleUrlChange = url => {
     entity = json;
 
     if (entity.product) {
-      const availableEntitiesEndpoint = `${apiSettings.apiResourceEndpoints.products}available_entities/?ids=${entity.product.id}`;
+      const availableEntitiesEndpoint = `${apiSettings.apiResourceEndpoints.products}available_entities/?countries=1&ids=${entity.product.id}`;
       fetch(availableEntitiesEndpoint).then(res => res.json()).then(json => {
         availableEntities = json['results'][0]['entities'].filter(entity => entity.active_registry.cell_monthly_payment === null);
-
         if (entity.active_registry && entity.active_registry.is_available) {
           if (!availableEntities.length) {
             setBestPriceBadge()

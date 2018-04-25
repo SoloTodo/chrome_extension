@@ -15,8 +15,8 @@
     "react-dom": "^16.3.2"
   },
   "scripts": {
-    "watch-background": "parcel watch src/background.html",
-    "watch-popup": "parcel watch src/popup.html"
+    "watch-background": "cp -a public/. dist && parcel watch src/background.html",
+    "watch-popup": "cp -a public/. dist && parcel watch src/popup.html"
   },
   "devDependencies": {
     "node-sass": "^4.8.3"
