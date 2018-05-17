@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.4",
   "name": "SoloTodo",
   "manifest_version": 2,
   "description": "Verifica si el producto que estás cotizando está más barato en otras tiendas",
@@ -29,6 +29,7 @@
     "*://www.bip.cl/",
     "*://www.hponline.cl/",
     "*://www.infor-ingen.com/",
+    "*://www.lider.cl/",
     "*://www.magens.cl/",
     "*://tienda.pc-express.cl/",
     "*://www.reifstore.cl/",

@@ -10,6 +10,7 @@ const matches = [
   /www.bip.cl/,
   /www.hponline.cl/,
   /www.infor-ingen.com/,
+  /www.lider.cl/,
   /www.magens.cl/,
   /tienda.pc-express.cl/,
   /www.reifstore.cl/,

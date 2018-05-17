@@ -87,6 +87,12 @@ export default class Popup extends Component {
           </table>
         </div> : null
         }
+
+        <div className="col-12 mt-2">
+          <p>
+            <a href="https://www.solotodo.com/tos" target="_blank" className="tos">Términos de servicio y uso de información</a>
+          </p>
+        </div>
       </div>
     </div>
   }
