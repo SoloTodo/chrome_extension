@@ -1,5 +1,5 @@
 {
-  "version": "0.0.4",
+  "version": "0.0.5",
   "name": "SoloTodo",
   "manifest_version": 2,
   "description": "Verifica si el producto que estás cotizando está más barato en otras tiendas",
@@ -46,7 +46,8 @@
     "*://www.spdigital.cl/",
     "*://www.winpy.cl/",
     "*://local.solotodo.com/",
-    "*://api.solotodo.com/"
+    "*://api.solotodo.com/",
+    "*://publicapi.solotodo.com/"
   ],
-  "content_security_policy": "default-src 'self'; script-src 'self' http://localhost:3000 https://localhost:3000 'unsafe-eval'; connect-src http://localhost:3000 https://localhost:3000 http://local.solotodo.com:8000 https://api.solotodo.com; style-src * 'unsafe-inline' 'self' blob:; img-src 'self' data:;"
+  "content_security_policy": "default-src 'self'; script-src 'self' http://localhost:3000 https://localhost:3000 'unsafe-eval'; connect-src http://localhost:3000 https://localhost:3000 http://local.solotodo.com:8000 https://publicapi.solotodo.com; style-src * 'unsafe-inline' 'self' blob:; img-src 'self' data:;"
 }

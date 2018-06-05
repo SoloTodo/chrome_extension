@@ -1,0 +1,20 @@
+DEVELOPMENT
+===========
+
+Background script watcher
+
+npm run watch-background
+
+Popup watcher
+
+npm run watch-popup
+
+
+PRODUCTION
+==========
+
+Execute in order
+
+cp -a public/. dist
+node_modules/.bin/parcel build src/background.html --no-minify
+node_modules/.bin/parcel build src/popup.html --no-minify
